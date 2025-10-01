@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Unity Board</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Digital Unity Board</h1>
+        <p>Share a message of positivity for World Mental Health Day & Breast Cancer Awareness Month.</p>
+    </header>
+
+    <div class="prize-card">
+        <p>🏆 The message with the most likes by the end of the week wins a prize! 🏆</p>
+    </div>
+
+    <main>
+        <form id="message-form">
+            <h2>Post a Message</h2>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <textarea id="message" placeholder="Your positive message..." required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+
+        <section id="messages-container">
+            <h2>Messages</h2>
+            <!-- Messages will be loaded here -->
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
